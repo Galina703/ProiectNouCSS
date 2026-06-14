@@ -9,7 +9,7 @@ public class HelloWorldController {
 
     //METODA PETRU A AFISA FORMULARUL HTML INITIAL
 
-    @RequestMapping("/showForm")
+    @GetMapping("/showForm")
     public String showForm() {
 
         return "helloworld-form";
